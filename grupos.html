@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fase de Grupos - Galindo 2026</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-stadium-dark text-white">
+
+    <div id="stadium-nav"></div>
+
+    <header class="container text-center pt-5 mt-5">
+        <div class="pt-5">
+            <span class="badge-soccer mb-2">📊 SECTORES OFICIALES</span>
+            <h1 class="display-4 fw-bold font-big-soccer m-0">GRUPOS DEL MUNDIAL</h1>
+            <div class="spacer-line-soccer mx-auto my-3"></div>
+            
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-6 col-sm-10">
+                    <input type="text" id="soccer-group-search" class="form-control search-soccer-input text-center" placeholder="🔍 Escribe un país para encontrar su grupo...">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container my-5 pb-5">
+        <div class="row g-4" id="soccer-groups-grid">
+            
+            <div class="col-xl-3 col-lg-4 col-md-6 group-soccer-box">
+                <div class="card card-group-soccer border-0">
+                    <div class="card-header-soccer-group">GRUPO A</div>
+                    <ul class="list-group list-soccer-teams list-group-flush">
+                        <li class="list-group-item">🇲🇽 México</li>
+                        <li class="list-group-item">🇮🇹 Italia</li>
+                        <li class="list-group-item">🇦🇺 Australia</li>
+                        <li class="list-group-item">🇨🇲 Camerún</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 group-soccer-box">
+                <div class="card card-group-soccer border-0">
+                    <div class="card-header-soccer-group">GRUPO B</div>
+                    <ul class="list-group list-soccer-teams list-group-flush">
+                        <li class="list-group-item">🇺🇸 Estados Unidos</li>
+                        <li class="list-group-item">🇲🇦 Marruecos</li>
+                        <li class="list-group-item">🇮🇪 Irlanda</li>
+                        <li class="list-group-item">🇰🇷 Corea del Sur</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 group-soccer-box">
+                <div class="card card-group-soccer border-0">
+                    <div class="card-header-soccer-group">GRUPO C</div>
+                    <ul class="list-group list-soccer-teams list-group-flush">
+                        <li class="list-group-item">🇨🇦 Canadá</li>
+                        <li class="list-group-item">🇸🇪 Suecia</li>
+                        <li class="list-group-item">🇸🇦 Arabia Saudita</li>
+                        <li class="list-group-item">🇬🇭 Ghana</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 group-soccer-box">
+                <div class="card card-group-soccer border-0">
+                    <div class="card-header-soccer-group">GRUPO D</div>
+                    <ul class="list-group list-soccer-teams list-group-flush">
+                        <li class="list-group-item">🇦🇷 Argentina</li>
+                        <li class="list-group-item">🏴󠁧󠁢󠁥󠁮󠁧󠁿 Inglaterra</li>
+                        <li class="list-group-item">🇩🇿 Argelia</li>
+                        <li class="list-group-item">🇳🇿 Nueva Zelanda</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 group-soccer-box">
+                <div class="card card-group-soccer border-0">
+                    <div class="card-header-soccer-group">GRUPO E</div>
+                    <ul class="list-group list-soccer-teams list-group-flush">
+                        <li class="list-group-item">🇧🇷 Brasil</li>
+                        <li class="list-group-item">🇯🇵 Japón</li>
+                        <li class="list-group-item">🇺🇦 Ucrania</li>
+                        <li class="list-group-item">🇪🇬 Egipto</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 group-soccer-box">
+                <div class="card card-group-soccer border-0">
+                    <div class="card-header-soccer-group">GRUPO F</div>
+                    <ul class="list-group list-soccer-teams list-group-flush">
+                        <li class="list-group-item">🇫🇷 Francia</li>
+                        <li class="list-group-item">🇨🇴 Colombia</li>
+                        <li class="list-group-item">🛡️ Islandia</li>
+                        <li class="list-group-item">🇲🇱 Malí</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 group-soccer-box">
+                <div class="card card-group-soccer border-0">
+                    <div class="card-header-soccer-group">GRUPO G</div>
+                    <ul class="list-group list-soccer-teams list-group-flush">
+                        <li class="list-group-item">🇪🇸 España</li>
+                        <li class="list-group-item">🇵🇪 Perú</li>
+                        <li class="list-group-item">🇹🇳 Túnez</li>
+                        <li class="list-group-item">🇺🇿 Uzbekistán</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 group-soccer-box">
+                <div class="card card-group-soccer border-0">
+                    <div class="card-header-soccer-group">GRUPO H</div>
+                    <ul class="list-group list-soccer-teams list-group-flush">
+                        <li class="list-group-item">🇩🇪 Alemania</li>
+                        <li class="list-group-item">🇺🇾 Uruguay</li>
+                        <li class="list-group-item">🇨🇦 Jamaica</li>
+                        <li class="list-group-item">🇴🇲 Omán</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 group-soccer-box">
+                <div class="card card-group-soccer border-0">
+                    <div class="card-header-soccer-group">GRUPO I</div>
+                    <ul class="list-group list-soccer-teams list-group-flush">
+                        <li class="list-group-item">🇵🇹 Portugal</li>
+                        <li class="list-group-item">🇨🇱 Chile</li>
+                        <li class="list-group-item">🇳🇬 Nigeria</li>
+                        <li class="list-group-item">🇨🇳 China</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 group-soccer-box">
+                <div class="card card-group-soccer border-0">
+                    <div class="card-header-soccer-group">GRUPO J</div>
+                    <ul class="list-group list-soccer-teams list-group-flush">
+                        <li class="list-group-item">🇳🇱 Países Bajos</li>
+                        <li class="list-group-item">🇪🇨 Ecuador</li>
+                        <li class="list-group-item">🇮🇶 Irak</li>
+                        <li class="list-group-item">🇿🇦 Sudáfrica</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 group-soccer-box">
+                <div class="card card-group-soccer border-0">
+                    <div class="card-header-soccer-group">GRUPO K</div>
+                    <ul class="list-group list-soccer-teams list-group-flush">
+                        <li class="list-group-item">🇧🇪 Bélgica</li>
+                        <li class="list-group-item">🇨🇷 Costa Rica</li>
+                        <li class="list-group-item">🇹🇷 Turquía</li>
+                        <li class="list-group-item">🇶🇦 Qatar</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 group-soccer-box">
+                <div class="card card-group-soccer border-0">
+                    <div class="card-header-soccer-group">GRUPO L</div>
+                    <ul class="list-group list-soccer-teams list-group-flush">
+                        <li class="list-group-item">🇭🇷 Croacia</li>
+                        <li class="list-group-item">🇵🇦 Panamá</li>
+                        <li class="list-group-item">🇩🇰 Dinamarca</li>
+                        <li class="list-group-item">🇲🇦 Zambia</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

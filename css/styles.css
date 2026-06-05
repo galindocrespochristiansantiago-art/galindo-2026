@@ -1,0 +1,486 @@
+body.bg-stadium-dark {
+    background-color: #0d1117; /* Negro/Gris noche industrial */
+    font-family: 'Space Grotesk', sans-serif;
+    overflow-x: hidden;
+}
+
+.text-turf-green { color: #00ff87 !important; }
+.text-light-50 { color: #9ca3af; }
+
+
+.navbar-soccer-dark {
+    background: rgba(13, 17, 23, 0.9) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 2px solid #1f2937;
+    padding: 12px 0;
+}
+
+.navbar-soccer-brand {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #00ff87 !important;
+    letter-spacing: 1px;
+}
+
+.nav-link-soccer {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #ffffff !important;
+    text-transform: uppercase;
+    padding: 8px 16px !important;
+    letter-spacing: 0.5px;
+    transition: all 0.25s ease;
+}
+
+.nav-link-soccer:hover, .nav-link-soccer.active {
+    color: #00ff87 !important;
+    background-color: rgba(0, 255, 135, 0.1);
+    border-radius: 6px;
+}
+
+.hero-stadium {
+    position: relative;
+    min-height: 70vh;
+    background: linear-gradient(135deg, #0f172a 0%, #022c22 100%); /* Degradado verde césped oscuro */
+    padding-top: 100px;
+}
+
+.overlay-dark {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: radial-gradient(circle, transparent 20%, #0d1117 90%);
+    z-index: 1;
+}
+
+.main-stadium-title {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 5.5rem;
+    font-weight: 900;
+    letter-spacing: -1px;
+    color: #ffffff;
+    text-shadow: 0 0 20px rgba(0, 255, 135, 0.3);
+}
+
+.subtitle-soccer {
+    max-width: 600px;
+    color: #9ca3af;
+    font-size: 1.1rem;
+}
+
+.badge-soccer {
+    background-color: rgba(0, 255, 135, 0.15);
+    color: #00ff87;
+    border: 1px solid rgba(0, 255, 137, 0.3);
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding: 6px 16px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+.btn-soccer-primary {
+    background-color: #00ff87;
+    color: #0d1117;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0 4px 14px rgba(0, 255, 135, 0.3);
+    transition: all 0.2s ease;
+}
+.btn-soccer-primary:hover {
+    background-color: #00cc6c;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(0, 255, 135, 0.5);
+    color: #0d1117;
+}
+
+.card-stadium-popup {
+    background-color: #1f2937;
+    max-width: 500px;
+    padding: 16px;
+    border-radius: 8px;
+    border-left: 5px solid #00ff87;
+}
+
+
+.section-soccer-title {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #1f2937;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.card-soccer {
+    background-color: #161b22;
+    border: 1px solid #21262d !important;
+    border-radius: 12px !important;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+.card-soccer:hover {
+    transform: translateY(-4px);
+    border-color: #00ff87 !important;
+}
+
+.soccer-icon {
+    font-size: 2rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.btn-soccer-outline {
+    background-color: transparent;
+    border: 2px solid #374151;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    border-radius: 6px;
+    padding: 10px;
+    transition: all 0.2s ease;
+}
+.btn-soccer-outline:hover {
+    border-color: #00ff87;
+    background-color: #00ff87;
+    color: #0d1117;
+}
+
+.font-big-soccer {
+    font-family: 'Big Shoulders Display', sans-serif;
+    letter-spacing: 1px;
+}
+
+.spacer-line-soccer {
+    width: 70px;
+    height: 4px;
+    background-color: #00ff87;
+    border-radius: 2px;
+}
+
+.card-news-soccer {
+    background-color: #161b22;
+    border: 1px solid #21262d !important;
+    border-radius: 14px !important;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.card-news-soccer:hover {
+    border-color: #00ff87 !important;
+    transform: translateY(-2px);
+}
+
+.badge-soccer-category {
+    background-color: rgba(0, 255, 135, 0.1);
+    color: #00ff87;
+    border: 1px solid rgba(0, 255, 135, 0.2);
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+}
+
+.soccer-date-text {
+    font-size: 0.8rem;
+    color: #8b949e;
+    font-weight: 500;
+}
+
+.news-soccer-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 1.3;
+    color: #ffffff;
+}
+
+.border-dark-soccer {
+    border-color: #21262d !important;
+}
+
+.btn-soccer-toggle {
+    background-color: transparent;
+    border: 2px solid #30363d;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.btn-soccer-toggle:hover {
+    border-color: #00ff87;
+    background-color: rgba(0, 255, 135, 0.05);
+    color: #00ff87;
+}
+
+.search-soccer-input {
+    background-color: #161b22 !important;
+    border: 2px solid #21262d !important;
+    border-radius: 6px;
+    color: #ffffff !important;
+    font-weight: 500;
+    padding: 12px;
+    transition: all 0.25s ease;
+}
+
+.search-soccer-input:focus {
+    border-color: #00ff87 !important;
+    box-shadow: 0 0 15px rgba(0, 255, 135, 0.2) !important;
+}
+
+.card-group-soccer {
+    background-color: #161b22;
+    border: 1px solid #21262d !important;
+    border-radius: 8px !important;
+    overflow: hidden;
+    transition: transform 0.25s ease;
+}
+
+.card-group-soccer:hover {
+    transform: scale(1.02);
+}
+
+.card-header-soccer-group {
+    background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+    border-bottom: 2px solid #00ff87;
+    color: #00ff87;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 900;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.list-soccer-teams .list-group-item {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #e2e8f0;
+    padding: 10px 16px;
+    background-color: transparent;
+    border-bottom: 1px solid #21262d;
+}
+
+.list-soccer-teams .list-group-item:last-child {
+    border-bottom: none;
+}
+
+.btn-soccer-filter {
+    background-color: #161b22;
+    color: #ffffff;
+    border: 2px solid #21262d;
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.btn-soccer-filter:hover, .btn-soccer-filter.active {
+    background-color: #00ff87;
+    color: #0d1117 !important;
+    border-color: #00ff87;
+    box-shadow: 0 0 15px rgba(0, 255, 135, 0.25);
+}
+
+.card-stadium-soccer {
+    background-color: #161b22;
+    border: 1px solid #21262d !important;
+    border-radius: 14px !important;
+    transition: border-color 0.3s ease;
+}
+
+.card-stadium-soccer:hover {
+    border-color: #00ff87 !important;
+}
+
+.stadium-img-wrap {
+    position: relative;
+    height: 220px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.stadium-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    transition: transform 0.4s ease;
+}
+
+.card-stadium-soccer:hover .stadium-img {
+    transform: scale(1.08);
+}
+
+.stadium-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+
+.stadium-badge-country {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    padding: 4px 12px;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.badge-mex { background: linear-gradient(135deg, #059669 0%, #10b981 100%); }
+.badge-usa { background: linear-gradient(135deg, #1d4ed8 0%, #3b82f6 100%); }
+.badge-can { background: linear-gradient(135deg, #dc2626 0%, #ef4444 100%); }
+
+.card-moment-soccer {
+    background-color: #161b22;
+    border: 1px solid #21262d !important;
+    border-radius: 14px !important;
+    transition: border-color 0.3s ease;
+}
+
+.card-moment-soccer:hover {
+    border-color: #00ff87 !important;
+}
+
+.moment-img-wrap {
+    position: relative;
+    height: 240px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #0d1117;
+}
+
+.moment-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-moment-soccer:hover .moment-img {
+    transform: scale(1.06);
+}
+
+.moment-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 1.25rem;
+}
+
+.moment-badge-year {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: rgba(13, 17, 23, 0.85);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 4px 12px;
+    border-radius: 4px;
+}
+
+.moment-trivia-box {
+    background-color: #0d1117;
+    border: 1px dashed #21262d;
+    border-radius: 8px;
+    color: #e2e8f0;
+}
+
+.btn-soccer-moment-toggle {
+    background-color: transparent;
+    border: 2px solid #30363d;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.btn-soccer-moment-toggle:hover {
+    border-color: #00ff87;
+    background-color: rgba(0, 255, 135, 0.05);
+    color: #00ff87;
+}
+
+.table-soccer-custom {
+    background-color: #161b22 !important;
+    border-collapse: separate;
+    border-spacing: 0 6px; 
+
+.table-soccer-custom thead th {
+    background-color: #0d1117 !important;
+    color: #8b949e;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    border: none;
+    padding: 12px;
+}
+
+.table-soccer-custom tbody tr {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.table-soccer-custom tbody td {
+    background-color: #161b22 !important;
+    border-top: 1px solid #21262d;
+    border-bottom: 1px solid #21262d;
+    padding: 14px 12px;
+    color: #f0f6fc;
+}
+
+.table-soccer-custom tbody tr td:first-child {
+    border-left: 1px solid #21262d;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.table-soccer-custom tbody tr td:last-child {
+    border-right: 1px solid #21262d;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.text-status-soccer {
+    font-size: 0.85rem;
+    color: #8b949e;
+}
+
+.row-podium-active td {
+    background-color: rgba(0, 255, 135, 0.08) !important;
+    border-color: #00ff87 !important;
+}
+
+.row-user-favorite td {
+    background-color: rgba(59, 130, 246, 0.12) !important;
+    border-color: #3b82f6 !important;
+}
